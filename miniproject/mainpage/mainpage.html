@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>수따벅수</title>
-    <link rel="stylesheet" href="/miniproject/mainpage/mainpage.css">
+    <link rel="stylesheet" href="../mainpage/mainpage.css">
     <link rel="shortcut icon" type="image/x-icon"
         href="https://cdn.discordapp.com/attachments/953519030080262175/953972078451777537/logo.png">
     <!-- <script src="/javascript/jquery-3.6.0.js"></script> -->
@@ -15,10 +15,10 @@
         $(document).ready(function () {
             $('.btn_prom_close').click(function () {
                 $('#view_After').slideToggle("slow");
+                $('.btn_prom_img').attr('src', 'https://image.istarbucks.co.kr/common/img/common/btn_prom_down.png');
             })
         })
-        
-        // $('.btn_prom_img').attr('src', 'https://image.istarbucks.co.kr/common/img/common/btn_prom_down.png');
+
         // 메뉴-돋보기
         $(document).ready(function () {
             $(".onclick").click(function () {
